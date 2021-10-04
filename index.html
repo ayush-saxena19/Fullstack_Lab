@@ -1,0 +1,201 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Plan Table</title>
+    <link rel="stylesheet" href="./css/all.css">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+        }
+        table{
+            text-align: left;
+            line-height: 20px;
+            border-collapse: separate;
+            border-spacing: 0;
+            border: 2pxn solid gray;
+            width: 80%;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+        /header part/
+        thead tr{
+            background: skyblue;
+            color: black;
+            border: none;
+            line-height: 20px;
+            text-align: center;
+        }
+        #b1{
+            text-decoration: none;
+            display: block;
+            padding: 10px 10px;
+            background-color:violet;
+            width: 50%;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10%;
+        }
+        #b2{
+            text-decoration: none;
+            display: block;
+            padding: 10px 10px;
+            background-color:violet;
+            width: 50%;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10%;
+        }
+        #b3{
+            text-decoration: none;
+            display: block;
+            padding: 10px 10px;
+            background-color:violet;
+            width: 50%;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10%;
+        }
+        #b4{
+            text-decoration: none;
+            display: block;
+            padding: 10px 10px;
+            background-color:violet;
+            width: 50%;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10%;
+        }
+        .plans{
+            line-height: 50px;
+            background: cyan;
+        }
+        .price{
+            background: white;
+            color: green;
+        }
+        .pages{
+            background:lightgreen;
+        }
+        .mbps{
+            background: cyan;
+        }
+        .sites{
+            background: cyan;
+        }
+        .mb{
+            background:lightgreen;
+        }
+        .include{
+            background: cyan;
+        }
+        .site{
+            background:lightgreen;
+        }
+        .cross{
+            background: cyan;
+        }
+        .tick{
+            background:lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <head>
+            <tr>
+                <th colspan="9">Select Your Plan</th>
+            </tr>
+            <tr class="plans">
+                <th><i class="fab fa-500px"></i>Basic</th>
+                <th><i class="fab fa-bandcamp"></i>Plus</th>
+                <th><i class="fas fa-atom"></i>Deluxe</th>
+                <th><i class="fab fa-audible"></i>Pro</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="price">
+                <td>Rs 500</td>
+                <td>Rs 1500</td>
+                <td>Rs 2500</td>
+                <td>Rs 3500</td>
+            </tr>
+            <tr class="pages">
+                <td>50 pages</td>
+                <td>75 pages</td>
+                <td>Unlimited</td>
+                <td>Unlimited</td>
+            </tr>
+            <tr class="users">
+                <td>3 users</td>
+                <td>5 users</td>
+                <td>10 users</td>
+                <td>Unlimited</td>
+            </tr>
+            <tr class="sites">
+                <td>10 sites</td>
+                <td>25 sites</td>
+                <td>100 sites</td>
+                <td>Unlimited</td>
+            </tr>
+            <tr class="mb">
+                <td>50 MB</td>
+                <td>250 MB</td>
+                <td>1 GB</td>
+                <td>5 GB</td>
+            </tr>
+            <tr class="include">
+                <td>included</td>
+                <td>included</td>
+                <td>included</td>
+                <td>included</td>
+            </tr>
+            <tr class="tick">
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr class="cross">
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr class="tick">
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr class="cross">
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr class="tick">
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr class="mybutton">
+                <td id=1>SignUp</td>
+                <td id=2>SignUp</td>
+                <td id=3>SignUp</td>
+                <td id=4>SignUp</td>
+            </tr>
+        </tbody>
+        </head>
+    </table>
+</body>
+</html>
